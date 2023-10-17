@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      BD
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">BD</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-button (click)="getUser()">
+  get User
+</ion-button>
+<ion-list>
+  <ion-item *ngFor="let user of users">
+    <div>{{user.short_name}}</div>
+  </ion-item>
+</ion-list>
+
+
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "casi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
