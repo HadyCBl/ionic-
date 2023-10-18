@@ -12,13 +12,20 @@
       <ion-title size="large">BD</ion-title>
     </ion-toolbar>
   </ion-header>
-<ion-button (click)="getUser()">
+<ion-button expand="block"(click)="getUser()">
   get User
 </ion-button>
 <ion-list>
   <ion-item *ngFor="let user of users">
     <div>{{user.short_name}}</div>
   </ion-item>
+
+  <ion-button expand="block" color="success" (click)="generatePDF()">
+    <ion-icon name="cloud-download-outline"></ion-icon>
+    
+  </ion-button>
+
+
 </ion-list>
 
 
