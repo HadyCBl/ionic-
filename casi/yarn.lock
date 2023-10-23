@@ -241,7 +241,7 @@
     symbol-observable "4.0.0"
     yargs "17.7.2"
 
-"@angular/common@^16.0.0", "@angular/common@16.2.9":
+"@angular/common@^16.0.0", "@angular/common@>=12.0.0 <17.0.0", "@angular/common@16.2.9":
   version "16.2.9"
   resolved "https://registry.npmjs.org/@angular/common/-/common-16.2.9.tgz"
   integrity sha512-5Lh5KsxCkaoBDeSAghKNF5lCi0083ug4X2X7wnafsSd6Z3xt/rDjH9hDOP5SF5IDLtCVjJgHfs3cCLSTjRuNwg==
@@ -269,7 +269,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^16.0.0", "@angular/core@>=14.0.0", "@angular/core@16.2.9":
+"@angular/core@^16.0.0", "@angular/core@>=12.0.0 <17.0.0", "@angular/core@>=14.0.0", "@angular/core@16.2.9":
   version "16.2.9"
   resolved "https://registry.npmjs.org/@angular/core/-/core-16.2.9.tgz"
   integrity sha512-chvPX29ZBcMDuh7rLIgb0Cru6oJ/0FaqRzfOI3wT4W2F9W1HOlCtipovzmPYaUAmXBWfVP4EBO9TOWnpog0S0w==
@@ -5741,6 +5741,11 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
   integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
 
+lodash.deburr@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/lodash.deburr/-/lodash.deburr-4.1.0.tgz"
+  integrity sha512-m/M1U1f3ddMCs6Hq2tAsYThTBDaAKFDX3dwDo97GEYzamXi9SqUpjWi/Rrj/gf3X2n8ktwgZrlP1z6E3v/IExQ==
+
 lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
@@ -6162,6 +6167,14 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+ngx-extended-pdf-viewer@^17.4.8:
+  version "17.4.8"
+  resolved "https://registry.npmjs.org/ngx-extended-pdf-viewer/-/ngx-extended-pdf-viewer-17.4.8.tgz"
+  integrity sha512-Yj8BR5zSJiVMAUBU4NiT5lQvjMD32YlD1S0zZOt5ixNhrIrcWF29DqO6zswKkqhBTqleOha4HIQqzIxyV+TsyA==
+  dependencies:
+    lodash.deburr "^4.1.0"
+    tslib "^2.3.0"
 
 node-addon-api@^3.2.1:
   version "3.2.1"
