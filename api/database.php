@@ -1,10 +1,10 @@
 <?php
 header("Access-Control-Allow-Origin: http://localhost:8100");
 
-$servername = "75.102.22.34";
-$username = "clhpzzvb_practicante";
-$password = "]iO@X&!85uTe";
-$database = "clhpzzvb_bd_coope_fape";
+$servername = "";
+$username = "";
+$password = "";
+$database = "";
 
 // Crear una conexión a la base de datos
 $conn = new mysqli($servername, $username, $password, $database);
